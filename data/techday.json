@@ -387,17 +387,17 @@
     "beijing_time": "2019.06-23 10:00 - 16:50",
     "beijing_addr": "北京 · 朝阳区西大望路 27 号 灿空间",
     "beijing_link": "http://hdxu.cn/mW4NX",
-    "shanghai_time": "2019.06-30 10:00 - 16:50",
+    "shanghai_time": "2019.06-30 10:00 - 17:20",
     "shanghai_addr": "上海 · 长宁区延安西路 918 号 HelloCoffee  （锦江达华酒店侧楼一楼）",
     "shanghai_link": "http://hdxu.cn/5Btct",
     "chengdu_time": "2019.07-06 10:00 - 16:50",
-    "chengdu_addr": "成都 · 待定",
+    "chengdu_addr": "成都 · 高新区 · 天府五街 200 号 6 栋 A 区 1 楼 3W 空间",
     "chengdu_link": "http://hdxu.cn/ktvu9",
-    "shenzhen_time": "2019.07-14 10:00 - 16:50",
-    "shenzhen_addr": "深圳 · 南山区侨城东 9 9号 Dream Paradise 梦空间",
+    "shenzhen_time": "2019.07.14 10:00 - 17:10",
+    "shenzhen_addr": "深圳 · 南山区侨城东 99 号 Dream Paradise 梦空间",
     "shenzhen_link": "http://hdxu.cn/P0cgO",
     "wuhan_time": "2019.07-20 10:00 - 16:50",
-    "wuhan_addr": "武汉 · 待定",
+    "wuhan_addr": "武汉 · 洪山区光谷大道现代光谷世贸中心 B 栋 19 楼 腾讯众创空间",
     "wuhan_link": "http://hdxu.cn/LQeh6",
     "hangzhou_time": "2019.07-27 10:00 - 16:50",
     "hangzhou_addr": "杭州 · 上城区白云路 9 号江南 1535 一楼中庭",
@@ -617,15 +617,14 @@
       },
       {
         "time": "15:40 - 16: 10",
-        "talk_title": "用户实践分享",
-        "talk_detail": "敬请期待",
+        "talk_title": "TiDB 在小红书多场景应用",
+        "talk_detail": "讲述 TiDB 在小红书大促实时看板、数据仓库、社区电商等多个场景的应用和思考；以及 TiDB 如何经历小红书 11.11、6.6 大考。",
         "speaker": [
-          "敬请期待"
+          "张俊骏"
         ],
-        "tba": true,
-        "company": "",
-        "speaker_title": "",
-        "image": "https://download.pingcap.com/images/techday2019/instructors/changjunchang.png"
+        "company": "小红书",
+        "speaker_title": "数据库与中间件团队负责人",
+        "image": "https://download.pingcap.com/images/techday2019/instructors/zhangjunjun.png"
       },
       {
         "time": "16:10 - 16:50",
@@ -637,6 +636,17 @@
         "company": "PingCAP",
         "speaker_title": "TiKV 研发工程师",
         "image": "https://download.pingcap.com/images/techday2019/instructors/shiwenxuan.png"
+      },
+      {
+        "time": "16:50 - 17:20",
+        "talk_title": "TiDB 在陆金所实时对账的应用",
+        "talk_detail": "讲述陆金所在发展过程中对于数据处理平台的思考，对 TiDB 从最初引入到落地的过程分享，介绍实施对账的业务应用场景，以及对 TiDB 的后续的发展展望。",
+        "speaker": [
+          "文初"
+        ],
+        "company": "陆金所",
+        "speaker_title": "大数据平台负责人",
+        "image": "https://download.pingcap.com/images/techday2019/instructors/wenchu.png"
       }
     ],
 
@@ -652,29 +662,7 @@
         "image": ""
       },
       {
-        "time": "10:00 - 10:20",
-        "talk_title": "Opening：畅想未来的数据库",
-        "talk_detail": "TiDB 从出生的第一天起就希望走国际化的路线，因为我们相信只有极致开放才是构建顶级基础软件产品的唯一出路，过去一年里，TiDB 开始走出国门走向世界。本次分享将会回顾一下过去一年来，TiDB 在全球社区的一些进展。",
-        "speaker": [
-          "黄东旭"
-        ],
-        "company": "PingCAP",
-        "speaker_title": "联合创始人兼 CTO",
-        "image": "https://download.pingcap.com/images/techday2019/instructors/huangdongxu.png"
-      },
-      {
-        "time": "10:20 - 11:00",
-        "talk_title": "全面解析 TiDB 3.0：易用性，扩展性，性能",
-        "talk_detail": "TiDB 3.0 计划于 6 月底发布第一个稳定版。相比 2.1，3.0 无论是在功能上，还是性能上都有很大进步。希望借助这次大会和大家聊一聊 3.0 的主要特性及其背后的考量，同时也会和大家交流一下我们对 TiDB 后续演进方向的思考。",
-        "speaker": [
-          "张建"
-        ],
-        "company": "PingCAP",
-        "speaker_title": "TiDB 优化器与执行引擎技术负责人",
-        "image": "https://download.pingcap.com/images/techday2019/instructors/zhangjian.png"
-      },
-      {
-        "time": "11:00 - 11:40",
+        "time": "10:00 - 11:00",
         "talk_title": "不止于代码：TiDB 社区发展及生态构建",
         "talk_detail": "随着 TiDB 项目的日益健壮，越来越多的全球小伙伴从各个维度加入到社区的建设中来。我会分享一下这半年来 TiDB 开源社区的那些有意思的故事，也会介绍一下在代码贡献之外还有哪些深度参与开源的方式，以及为了反哺社区我们最近的新动作。",
         "speaker": [
@@ -683,6 +671,17 @@
         "company": "PingCAP",
         "speaker_title": "联合创始人",
         "image": "https://download.pingcap.com/images/techday2019/instructors/cuiqiu.png"
+      },
+      {
+        "time": "11:00 - 11:40",
+        "talk_title": "全面解析 TiDB 3.0：易用性，扩展性，性能",
+        "talk_detail": "TiDB 3.0 计划于 6 月底发布第一个稳定版。相比 2.1，3.0 无论是在功能上，还是性能上都有很大进步。希望借助这次大会和大家聊一聊 3.0 的主要特性及其背后的考量，同时也会和大家交流一下我们对 TiDB 后续演进方向的思考。",
+        "speaker": [
+          "姚珂男"
+        ],
+        "company": "PingCAP",
+        "speaker_title": "Developer of SQL Engine Team",
+        "image": "https://download.pingcap.com/images/techday2019/instructors/yaokenan.png"
       },
       {
         "time": "11:40 - 12:10",
@@ -720,15 +719,14 @@
       },
       {
         "time": "14:10 - 14:40",
-        "talk_title": "用户实践分享 2",
-        "talk_detail": "敬请期待",
+        "talk_title": "58 同城 TiDB 应用与实践",
+        "talk_detail": "介绍目前 58 使用 TiDB 的情况，以及 DBA 在 TiDB 方面的工作，后续的计划等。",
         "speaker": [
-          "敬请期待"
+          "刘春雷"
         ],
-        "tba": true,
-        "company": "",
-        "speaker_title": "",
-        "image": "https://download.pingcap.com/images/techday2019/instructors/huangdongxu.png"
+        "company": "58 集团",
+        "speaker_title": "高级 DBA",
+        "image": "https://download.pingcap.com/images/techday2019/instructors/liuchunlei.png"
       },
       {
         "time": "14:40 - 15:20",
@@ -761,15 +759,14 @@
       },
       {
         "time": "15:40 - 16: 10",
-        "talk_title": "用户实践分享 3",
-        "talk_detail": "敬请期待",
+        "talk_title": "新型可扩展的金融业务系统建设实践",
+        "talk_detail": "北京银行积极推进数字化转型进程，在多个领域中作出了有益的尝试。本次分享，将从金融系统建设中的重要组成部分数据库、应用架构、云生态等方面进行介绍，与大家共同探讨银行数字化转型的思路及路径。",
         "speaker": [
-          "敬请期待"
+          "于振华"
         ],
-        "tba": true,
-        "company": "",
-        "speaker_title": "",
-        "image": "https://download.pingcap.com/images/techday2019/instructors/changjunchang.png"
+        "company": "北京银行",
+        "speaker_title": "资深架构师",
+        "image": "https://download.pingcap.com/images/techday2019/instructors/yuzhenhua.png"
       },
       {
         "time": "16:10 - 16:50",
@@ -861,16 +858,15 @@
         "image": "https://download.pingcap.com/images/techday2019/instructors/weiwan.png"
       },
       {
-        "time": "11:40 - 12:10",
-        "talk_title": "用户实践分享 2",
-        "talk_detail": "敬请期待",
+        "time": "14:10 - 14:40",
+        "talk_title": "TiDB 在微众银行的实践之旅",
+        "talk_detail": "主要介绍微众银行的数据库架构与痛点、从 MySQL 迁移到 TiDB 的完整案例和生态工具使用经验总结。",
         "speaker": [
-          "敬请期待"
+          "黄蔚"
         ],
-        "tba": true,
-        "company": "",
-        "speaker_title": "",
-        "image": "https://download.pingcap.com/images/techday2019/instructors/cuiqiu.png"
+        "company": "微众银行",
+        "speaker_title": "高级 DBA 工程师",
+        "image": "https://download.pingcap.com/images/techday2019/instructors/huangwei.png"
       },
       {
         "time": "14:40 - 15:20",
@@ -902,16 +898,15 @@
         "speaker_title": ""
       },
       {
-        "time": "11:40 - 12:10",
-        "talk_title": "用户实践分享 3",
-        "talk_detail": "敬请期待",
+        "time": "15:40 - 16:10",
+        "talk_title": "TiDB 准实时数仓在 360 金融产品运营的应用",
+        "talk_detail": "1、渠道数据时效性优化；2、实时业务跨库监控；3、准实时报表定时跑批等。",
         "speaker": [
-          "敬请期待"
+          "黄龙"
         ],
-        "tba": true,
-        "company": "",
-        "speaker_title": "",
-        "image": "https://download.pingcap.com/images/techday2019/instructors/cuiqiu.png"
+        "company": "360 金融",
+        "speaker_title": "软件工程师",
+        "image": "https://download.pingcap.com/images/techday2019/instructors/huanglong.png"
       },
       {
         "time": "16:10 - 16:50",
@@ -923,6 +918,17 @@
         "company": "PingCAP",
         "speaker_title": "首席架构师",
         "image": "https://download.pingcap.com/images/techday2019/instructors/tangliu.png"
+      },
+      {
+        "time": "16:50 - 17:10",
+        "talk_title": "汉得信息-技术中台介绍以及 TiDB 在 SaaS 场景的应用",
+        "talk_detail": "1、汉得技术中台逻辑架构以及核心能力介绍；2、在 ToB 端 Saas 场景的技术解决方案；3、TiDB 的使用案例。",
+        "speaker": [
+          "赵振坤"
+        ],
+        "company": "汉得信息",
+        "speaker_title": "移动技术中心总经理",
+        "image": "https://download.pingcap.com/images/techday2019/instructors/zhaozhenkun.png"
       }
     ],
 
@@ -970,15 +976,14 @@
       },
       {
         "time": "11:40 - 12:10",
-        "talk_title": "用户实践分享 1",
-        "talk_detail": "敬请期待",
+        "talk_title": "TiDB 在光迅科技的智能制造应用实践",
+        "talk_detail": "1、智能制造面临的数据处理挑战；2、解决之道 —— 引入TiDB；3、TiDB 在光迅的应用实践；4、总结和展望。",
         "speaker": [
-          "敬请期待"
+          "汤凌菲"
         ],
-        "tba": true,
-        "company": "",
-        "speaker_title": "",
-        "image": "https://download.pingcap.com/images/techday2019/instructors/cuiqiu.png"
+        "company": "光迅科技",
+        "speaker_title": "资深软件工程师",
+        "image": "https://download.pingcap.com/images/techday2019/instructors/tanglingfei.png"
       },
       {
         "time": "12:10 - 13:30",
@@ -1046,15 +1051,14 @@
       },
       {
         "time": "15:40 - 16: 10",
-        "talk_title": "用户实践分享 3",
-        "talk_detail": "敬请期待",
+        "talk_title": "基于非易失性存储器的键值存储系统",
+        "talk_detail": "非易失性存储介质具有非易失性、高容量、高性能等特点，能够为进一步提高系统性能提供保障。本次分享将介绍非易失性存储介质 Intel Optane DC 的一些特性，目前基于非易失性存储介质的键值存储系统的一系列研究工作，以及我们使用 NVM 优化键值存储系统的一个简单尝试。",
         "speaker": [
-          "敬请期待"
+          "姚婷"
         ],
-        "tba": true,
-        "company": "",
-        "speaker_title": "",
-        "image": "https://download.pingcap.com/images/techday2019/instructors/cuiqiu.png"
+        "company": "武汉光电国家研究中心并行数据存储实验室",
+        "speaker_title": "博四在读",
+        "image": "https://download.pingcap.com/images/techday2019/instructors/yaoting.png"
       },
       {
         "time": "16:10 - 16:50",
@@ -1113,15 +1117,14 @@
       },
       {
         "time": "11:40 - 12:10",
-        "talk_title": "用户实践分享 1",
-        "talk_detail": "敬请期待",
+        "talk_title": "甜橙金融 TiDB 能力验证与落地实践",
+        "talk_detail": "介绍甜橙金融 2018 - 2019 年在 TiDB 上的技术验证和落地实践，包括 POC 基础验证、跨千公里双活功能验证，以及在财务类业务快速生产上线、征信业务切换等落地实践。",
         "speaker": [
-          "敬请期待"
+          "张小虎"
         ],
-        "tba": true,
-        "company": "",
-        "speaker_title": "",
-        "image": "https://download.pingcap.com/images/techday2019/instructors/cuiqiu.png"
+        "company": "甜橙金融",
+        "speaker_title": "创新技术中心总经理",
+        "image": "https://download.pingcap.com/images/techday2019/instructors/zhangxiaohu.png"
       },
       {
         "time": "12:10 - 13:30",
@@ -1148,15 +1151,14 @@
       },
       {
         "time": "14:10 - 14:40",
-        "talk_title": "用户实践分享 2",
-        "talk_detail": "敬请期待",
+        "talk_title": "TiKV 在京东云对象存储元数据管理中的使用实践",
+        "talk_detail": "1、对象存储元数据管理的挑战；2、基于数据库的元数据管理方案；3、基于 TiKV 的对象存储元数据管理我们做的工作；4、迁移到 TiKV 我们做的工作；5、后续会做的一些工作。",
         "speaker": [
-          "敬请期待"
+          "崔灿"
         ],
-        "tba": true,
-        "company": "",
-        "speaker_title": "",
-        "image": "https://download.pingcap.com/images/techday2019/instructors/huangdongxu.png"
+        "company": "京东",
+        "speaker_title": "产品研发部专家架构师",
+        "image": "https://download.pingcap.com/images/techday2019/instructors/cuican.png"
       },
       {
         "time": "14:40 - 15:20",

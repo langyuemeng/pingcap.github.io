@@ -17,12 +17,12 @@ replace_dist_html_link() {
         replace_dist_html_link "$html" $repo_name
       elif [[ ! -d "$html" ]] && echo "$html" | grep -E '\.html$' > /dev/null;then
         set +e
-        echo $html
+        # echo $html
         if grep -E 'href=\"\S+\.md' $html | grep -E -v 'href=\"http' > /dev/null;then
-          echo "process..."
+          # echo "process..."
           python scripts/convert_html.py $html $repo_name
         elif grep -E 'img src=\"[\.\/]*media\/' $html > /dev/null;then
-          echo "process..."
+          # echo "process..."
           python scripts/convert_html.py $html $repo_name
         fi
         set -e
@@ -33,7 +33,7 @@ replace_dist_html_link() {
 
 cn_tmp_docs_path="dist/docs-cn"
 en_tmp_docs_path="dist/docs"
-replace_dist_html_link "$cn_tmp_docs_path" docs-cn
+
 replace_dist_html_link "$en_tmp_docs_path" docs
 
 cn_tmp_blogs_path="dist/blog-cn"
@@ -41,6 +41,8 @@ en_tmp_blogs_path="dist/blog"
 replace_dist_html_link "$cn_tmp_blogs_path" blog-cn
 replace_dist_html_link "dist/cases-cn" blog-cn
 replace_dist_html_link "$en_tmp_blogs_path" blog
+
+replace_dist_html_link "$cn_tmp_docs_path" docs-cn
 replace_dist_html_link "dist/success-stories" blog
 
 replace_dist_html_link "dist/meetup" meetup

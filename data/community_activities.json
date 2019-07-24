@@ -36,5 +36,36 @@
       "active": false,
       "link": "/community-cn/hackathon2018"
     }
+  ],
+
+  "upcoming_activities": [
+    {
+      "topic": "TiDB Techday 2019",
+      "addr": "成都站",
+      "date": "2019-07-06",
+      "signup_link": "http://hdxu.cn/ktvu9",
+      "review_link": ""
+    },
+    {
+      "topic": "TiDB Techday 2019",
+      "addr": "深圳站",
+      "date": "2019-07-14",
+      "signup_link": "http://hdxu.cn/P0cgO",
+      "review_link": ""
+    },
+    {
+      "topic": "TiDB Techday 2019",
+      "addr": "武汉站",
+      "date": "2019-07-20",
+      "signup_link": "http://hdxu.cn/LQeh6",
+      "review_link": ""
+    },
+    {
+      "topic": "TiDB Techday 2019",
+      "addr": "杭州站",
+      "date": "2019-07-27",
+      "signup_link": "http://hdxu.cn/eGLtM",
+      "review_link": ""
+    }
   ]
 }

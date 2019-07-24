@@ -3,6 +3,7 @@
 // Document Pages
 
 import './vendor/jquery.SimpleTree.js'
+import ClipboardJS from './vendor/clipboard.min.js'
 import { run as toc_run } from './vendor/toc'
 
 // Open the first folder
@@ -39,6 +40,18 @@ function processStickyTree() {
       }
     },
   })
+
+  if ($('#list_page').length == 0) {
+    $('.sticky-sidebar').animate(
+      {
+        scrollTop:
+          $('li.leaf-child.active').offset().top -
+          $('.sticky-sidebar').offset().top -
+          200,
+      },
+      1000
+    )
+  }
 
   // Open the first item in docs/docs-cn/weekly/recruit list page
   const $firstLI = $('#list_page .st_tree > ul > li:first-child')
@@ -299,11 +312,6 @@ $(document).ready(function() {
       },
     })
 
-    // remove text highlight from the selected target text
-    clipboard.on('success', function(e) {
-      e.clearSelection()
-    })
-
     // highlight the blockquote in docs/docs-cn
     $('blockquote').each(function() {
       var $this = $(this)
@@ -330,4 +338,27 @@ $(document).ready(function() {
       }
     })
   }
+
+  // hide dropdown Menu if user clicks other divs when the status of dropdown menu is open
+  $('.doc').click(function(e) {
+    if (
+      e.target.id != 'dropdownMenuButton' &&
+      e.target.id != 'dropdown-menu-items' &&
+      e.target.classList.value != 'dropdown-item'
+    ) {
+      if (!$('.dropdown-menu').hasClass('visibility-hide')) {
+        $('.dropdown-menu').slideToggle('fast')
+        $('.dropdown-menu').addClass('visibility-hide')
+      }
+    }
+  })
+
+  // handles docs version switch
+  $('.version-switcher').click(function() {
+    if ($('.dropdown-menu').hasClass('visibility-hide')) {
+      $('.dropdown-menu').removeClass('visibility-hide')
+    } else {
+      $('.dropdown-menu').slideToggle('fast')
+    }
+  })
 })
