@@ -1,6 +1,6 @@
 ---
 title: Content Strategist
-season: 2019 校招 
+season: 2020 校招 
 tags:
   - Campus
 location: 北京
@@ -8,7 +8,7 @@ avatar: writer
 position: true
 aliases:
   - /recruit/campus/campus-2019-content-strategist/
-  - /recruit-cn/campus/campus-2019-content-strategist/
+  - /about-cn/recruit-cn/campus/campus-2019-content-strategist/
 ---
 
 # Content Strategist
