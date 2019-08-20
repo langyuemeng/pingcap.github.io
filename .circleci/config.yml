@@ -17,6 +17,10 @@ jobs:
         - yini/website-preview
 
     steps:
+      # notice netlify to deploy yini/preview branch
+      # when be triggered by webhook from submodule
+      - run: curl -X POST -d '' https://api.netlify.com/build_hooks/5cb97398aed249fc2447b1f1
+
       - checkout
 
       - run: sudo apt-get install -y rsync && sudo apt-get install Python-bs4
@@ -41,15 +45,12 @@ jobs:
 
       - run: npm run build
 
-      # notice netlify to deploy yini/preview branch
-      # when be triggered by webhook from submodule
-      - run: curl -X POST -d '' https://api.netlify.com/build_hooks/5cb97398aed249fc2447b1f1
-
       - deploy:
           name: "Publish Website"
           command: |
             if [ "${CIRCLE_BRANCH}" == "src" ]; then
               ssh-keyscan "${DEPLOY_HOST}" >> ~/.ssh/known_hosts 2>/dev/null;
+              echo "${DEPLOY_PATH}";
               rsync -avz --delete dist/ "${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}" || true;
               ssh-keyscan "${DEPLOY_AWS_HOST}" >> ~/.ssh/known_hosts 2>/dev/null;
               rsync -avz --delete dist/ "${DEPLOY_AWS_USER}@${DEPLOY_AWS_HOST}:${DEPLOY_AWS_PATH}" || true;
