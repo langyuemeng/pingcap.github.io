@@ -10,10 +10,11 @@ console.log('🦊 Hello! @PingCAP website')
 // Smooth scrolling when the document is loaded and ready
 function smoothScroll(hash) {
   const y = $('header').height()
+  const marginTop = parseInt($(hash).css('marginTop'))
   if (hash && $(hash).offset())
     $('html, body').animate(
       {
-        scrollTop: $(hash).offset().top - y - 20,
+        scrollTop: $(hash).offset().top - y - marginTop,
       },
       1000
     )
@@ -47,14 +48,31 @@ function initialSearch(lang) {
     debug: false, // Set debug to true if you want to inspect the dropdown
     transformData: function(hits) {
       // filter 404 results
-      function is404(h) {
-        var pattern = /404/gi
-        return h && h.lvl1 && pattern.exec(h.lvl1)
-      }
-      var filteredHits = hits.filter(function(hit) {
-        return !is404(hit.hierarchy)
+      // function is404(h) {
+      //   var pattern = /404/gi
+      //   return h && h.lvl1 && pattern.exec(h.lvl1)
+      // }
+      // var filteredHits = hits.filter(function(hit) {
+      //   return !is404(hit.hierarchy)
+      // })
+      // return filteredHits
+
+      hits.forEach((hit, idx) => {
+        var preKey
+        for (var key in hit.hierarchy) {
+          if(idx == 6 && hit.hierarchy[key] != null) {
+            let newAnchor = hit.hierarchy[key].replace(/\s+/g, '-').replace(/[^-\w\u4E00-\u9FFF]*/g, '').toLowerCase()
+            hits[idx].anchor = newAnchor
+            hits[idx].url = hits[idx].url.replace(/\#.*$/g, '#' + newAnchor)
+          } else if(hit.hierarchy[key] == null && hit.hierarchy[preKey] != null) {
+            let newAnchor = hit.hierarchy[preKey].replace(/\s+/g, '-').replace(/[^-\w\u4E00-\u9FFF]*/g, '').toLowerCase()
+            hits[idx].anchor = newAnchor
+            hits[idx].url = hits[idx].url.replace(/\#.*$/g, '#' + newAnchor)
+            break
+          }
+          preKey = key
+        }
       })
-      return filteredHits
     },
   })
 }
@@ -108,7 +126,7 @@ function toggleWeChatQRCode() {
     $('#wechat-mobile .qr_code_outer').toggleClass('f-hide')
   })
 
-  $('.tidb-planet-robot').click(e => {
+  $('.tidb-planet-robot, .contact-us-hack19').click(e => {
     e.preventDefault()
     $('.qr-tooltiptext').toggleClass('f-hide')
   })
