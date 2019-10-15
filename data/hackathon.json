@@ -173,12 +173,6 @@
 
   "tutors_2019": [
     {
-      "name": "刘奇",
-      "title": "PingCAP | 联合创始人兼 CEO",
-      "avatar": "https://download.pingcap.com/images/instructors/liuqi.jpg",
-      "judge": true
-    },
-    {
       "name": "黄东旭",
       "title": "PingCAP | 联合创始人兼 CTO",
       "avatar": "https://download.pingcap.com/images/instructors/huangdongxu.jpg",
@@ -188,7 +182,35 @@
       "name": "申砾",
       "title": "PingCAP | Engineering VP",
       "avatar": "https://download.pingcap.com/images/instructors/shenli.jpg",
-      "judge": false,
+      "judge": true,
+      "tba": false
+    },
+    {
+      "name": "李凯",
+      "title": "美团 | 数据库团队负责人",
+      "avatar": "https://download.pingcap.com/images/instructors/likai.jpg",
+      "judge": true,
+      "tba": false
+    },
+    {
+      "name": "于伯伟",
+      "title": "58集团 | 数据库高级经理",
+      "avatar": "https://download.pingcap.com/images/instructors/yubowei.jpeg",
+      "judge": true,
+      "tba": false
+    },
+    {
+      "name": "李道兵",
+      "title": "京东云 | 高级总监",
+      "avatar": "https://download.pingcap.com/images/instructors/lidaobing.png",
+      "judge": true,
+      "tba": false
+    },
+    {
+      "name": "赵应钢",
+      "title": "美团点评 | 分布式数据库平台开发和运维负责人，研究员",
+      "avatar": "https://download.pingcap.com/images/instructors/zhaoyinggang-hackathon.jpeg",
+      "judge": true,
       "tba": false
     },
     {
@@ -216,6 +238,34 @@
       "name": "于帅鹏",
       "title": "PingCAP | TiDB 架构组研发组长",
       "avatar": "https://download.pingcap.com/images/techday2019/instructors/yushuaipeng.png",
+      "judge": false,
+      "tba": false
+    },
+    {
+      "name": "冯立元",
+      "title": "PingCAP | TiDB 研发工程师",
+      "avatar": "https://download.pingcap.com/images/instructors/fengliyuan.jpeg",
+      "judge": false,
+      "tba": false
+    },
+    {
+      "name": "李建俊",
+      "title": "PingCAP | TiKV 研发工程师",
+      "avatar": "https://download.pingcap.com/images/instructors/lijianjun.jpeg",
+      "judge": false,
+      "tba": false
+    },
+    {
+      "name": "常军昌",
+      "title": "PingCAP | 研发工程师",
+      "avatar": "https://download.pingcap.com/images/techday2019/instructors/changjunchang.png",
+      "judge": false,
+      "tba": false
+    },
+    {
+      "name": "张建",
+      "title": "PingCAP | TiDB 优化器与执行引擎技术负责人",
+      "avatar": "https://download.pingcap.com/images/instructors/zhangjian.jpg",
       "judge": false,
       "tba": false
     },
@@ -409,7 +459,7 @@
           "d": "当然可以，欢迎在社区内在线勾搭 PingCAP 成员。如果有组队意向，但没有合适人选，也可以联系 TiDB Robot（微信 ID: tidbai）尝试分配组队呦。"
         },
         {
-          "d": "原则上，任一队伍中，PingCAP 内部人数不可超过队伍总人数的 50%。"
+          "d": "原则上，任一队伍中，PingCAP 内部人数不可超过 2 人。"
         }
       ]
     },
@@ -433,7 +483,7 @@
       "q": "6. 主办方提供餐饮和住宿吗？",
       "a": [
         {
-          "d": "我们提供参赛者和志愿者比赛期间的餐饮（两份午餐，一份早餐、一份晚餐），参赛选手可留在比赛场地过夜，如需在场地附近租住宾馆需要自己解决哟～"
+          "d": "我们提供参赛者和志愿者比赛期间的餐饮（两份午餐、一份早餐、一份晚餐），参赛选手可留在比赛场地过夜，如需在场地附近租住宾馆需要自己解决哟～"
         }
       ]
     },

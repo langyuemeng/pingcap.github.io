@@ -6,7 +6,7 @@ function createEventListConsole(eventTitles, eventLinks) {
     var event = document.createElement('div')
     event.className = 'event'
     event.innerHTML =
-      '<a href="' + eventLinks[i] + '">' + eventTitles[i] + '</a>'
+      '<a href="' + eventLinks[i] + '" target=_blank>' + eventTitles[i] + '</a>'
     $('.event-list').append(event)
   }
 }
