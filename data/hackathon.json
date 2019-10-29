@@ -214,6 +214,13 @@
       "tba": false
     },
     {
+      "name": "侯圣文",
+      "title": "贝壳找房 | 数据技术总监",
+      "avatar": "https://download.pingcap.com/images/instructors/houshengwen.jpg",
+      "judge": true,
+      "tba": false
+    },
+    {
       "name": "唐刘",
       "title": "PingCAP | 首席架构师",
       "avatar": "https://download.pingcap.com/images/instructors/tangliu.jpg",
@@ -222,15 +229,8 @@
     },
     {
       "name": "姚维",
-      "title": "PingCAP | TiDB SQL Infra Team Tech Lead",
+      "title": "PingCAP | Senior Technical Director",
       "avatar": "https://download.pingcap.com/images/instructors/yaowei.jpg",
-      "judge": false,
-      "tba": false
-    },
-    {
-      "name": "陈霜",
-      "title": "PingCAP | TiDB 研发工程师",
-      "avatar": "https://download.pingcap.com/images/instructors/chenshuang.jpg",
       "judge": false,
       "tba": false
     },
@@ -270,10 +270,18 @@
       "tba": false
     },
     {
-      "name": "敬请期待",
-      "title": "",
-      "avatar": "https://download.pingcap.com/images/hackathon2019/TBD-tutor.png",
-      "tba": true
+      "name": "周振靖",
+      "title": "PingCAP | TiKV 研发工程师",
+      "avatar": "https://download.pingcap.com/images/instructors/zhouzhenjing.jpg",
+      "judge": false,
+      "tba": false
+    },
+    {
+      "name": "刘玮",
+      "title": "PingCAP | 研发工程师",
+      "avatar": "https://download.pingcap.com/images/instructors/liuwei.jpg",
+      "judge": false,
+      "tba": false
     }
   ],
 
@@ -326,7 +334,7 @@
       "time": "即日起 - 10 月 23 日",
       "detail": "如果你对 Improve 这个主题有挑战兴趣，就快来组队参赛吧！1~4 人成队，没有队员人选也没关系，欢迎在线求助 TiDB Robot（微信 ID: tidbai）~",
       "btn_link": "http://nc9hsk15y2xczuor.mikecrm.com/PiwBPaL",
-      "btn_text": "立即报名"
+      "btn_text": "报名已结束"
     },
     {
       "step": "2",
