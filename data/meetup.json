@@ -2,17 +2,10 @@
   "default_cover": "https://pingcap.com/images/pingcap-opengraph.jpg",
   "next_meetup_or_activity": [
     {
-      "topic": "【广州】TiDB 实践分享会：TiDB 3.0、TiDB on K8s、TiDB on ARM",
-      "addr": "广州.海珠区",
-      "date": "2019-11-07",
-      "signup_link": "https://www.huodongxing.com/event/6516485644900",
-      "review_link": ""
-    },
-    {
-      "topic": "【深圳】TiDB 实践分享会：实时数仓、云实践、TiDB on ARM",
-      "addr": "深圳.南山区",
-      "date": "2019-11-09",
-      "signup_link": "https://www.huodongxing.com/event/6516487592800",
+      "topic": "【北京】TiDB 实践分享会：TiDB 跨数据中心场景的优化方案",
+      "addr": "北京.海淀区",
+      "date": "2019-11-16",
+      "signup_link": "https://www.huodongxing.com/event/8518916756700",
       "review_link": ""
     }
   ],

@@ -16,7 +16,7 @@
                     {{- range $idx, $i := .Site.Data.index_cn_carousel_banner.banners -}}
                         <div class="swiper-slide">
                             <a href="{{ $i.link }}" {{ if $i.newTab }}target="_blank"{{ end }}
-                                onclick="trackViews('{{ $i.gaTrackeEventLabel }}', '{{ $i.gaTrackEventClass }}')">
+                                onclick="trackViews('{{ $i.gaTrackEventLabel }}', '{{ $i.gaTrackEventClass }}')">
                                 <img class="moment-img"
                                 src="{{ $i.img }}" alt="{{ $i.alt }}"/>
                             </a>
@@ -48,7 +48,7 @@
                             {{- range $idx, $i := .Site.Data.index_cn_carousel_banner.banners -}}
                                 <div class="swiper-slide">
                                     <a href="{{ $i.link }}" {{ if $i.newTab }}target="_blank"{{ end }}
-                                        onclick="trackViews('{{ $i.gaTrackeEventLabel }}', '{{ $i.gaTrackEventClass }}')">
+                                        onclick="trackViews('{{ $i.gaTrackEventLabel }}', '{{ $i.gaTrackEventClass }}')">
                                         <img class="moment-img"
                                         src="{{ $i.img }}" alt="{{ $i.alt }}"/>
                                     </a>
