@@ -1,6 +1,14 @@
 {
     "paper_reviews": [
         {
+            "date": "2019/12/09",
+            "speaker": "方祝和",
+            "title": "Interleaved Multi-Vectorizing",
+            "paper_link": "http://www.vldb.org/pvldb/vol13/p226-fang.pdf",
+            "desc": "SIMD 是一种单指令多数据的指令集，普遍存在于当前的CPU架构中。它能够加快 in-cache 数据的处理，但是在 out-of-cache 的大数据集上失效。本文针对这个问题提出 IMV，减少 SIMD 在大数据集上的 cache  misses。",
+            "video": "https://www.bilibili.com/video/av79069393/"
+        },
+        {
             "date": "2019/10/29",
             "speaker": "俞腾秋",
             "title": "Architecture of a Database System",
@@ -172,10 +180,10 @@
     ],
     "upcoming_reading": [
         {
-            "topic": "Architecture of a Database System",
-            "speaker": "俞腾秋",
-            "date": "2019-10-29",
-            "signup_link": "http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf",
+            "topic": "ARC: A SELF-TUNING, LOW OVERHEAD REPLACEMENT CACHE",
+            "speaker": "李泽钧",
+            "date": "2019-12-16",
+            "signup_link": "https://pingcap.zoom.us/j/8167688561",
             "review_link": ""
         }
     ]
