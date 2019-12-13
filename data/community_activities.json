@@ -87,6 +87,22 @@
       "signup_link": "https://www.huodongxing.com/event/9519218935900",
       "review_link": "",
       "external_link": true
+    },
+    {
+      "topic": "同程艺龙、汽车之家和马蜂窝的数据库异构升迁之路",
+      "addr": "北京",
+      "date": "2019-12-22",
+      "signup_link": "http://www.huodongxing.com/event/2522645075200",
+      "review_link": "",
+      "external_link": true
+    },
+    {
+      "topic": "走进喜马拉雅：网关演化、数据计算平台设计与 TiDB 实践",
+      "addr": "上海",
+      "date": "2019-12-22",
+      "signup_link": "http://www.huodongxing.com/event/8522561696900",
+      "review_link": "",
+      "external_link": true
     }
   ]
 }

@@ -33,9 +33,9 @@
                     <div>
                         <a href="{{ if $i.review_link }}{{ $i.review_link }}{{ else }}{{ $i.signup_link }}{{ end }}" target="_blank">
                             <button class="meetup-register">
-                                {{- if $i.video -}}
+                                {{- if $i.signup_link -}}
                                     观看直播
-                                {{- else if and (not $i.video) $i.review_link -}} 
+                                {{- else if and (not $i.signup_link) $i.review_link -}} 
                                     直播结束 
                                 {{- end -}}
                             </button>
