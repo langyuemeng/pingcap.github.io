@@ -2,10 +2,17 @@
   "default_cover": "https://pingcap.com/images/pingcap-opengraph.jpg",
   "next_meetup_or_activity": [
     {
-      "topic": "【深圳】Infra Meetup No.120：丰巢支付平台的 TiDB 迁移之旅 & TiKV 优化之路",
-      "addr": "深圳.南山区",
-      "date": "2019-12-07",
-      "signup_link": "https://www.huodongxing.com/event/8521799165300",
+      "topic": "【北京】PingCAP Infra Meetup No.122：基于 Hadoop 快速构建 Elasticsearch 索引 & TiDB 4.0",
+      "addr": "北京.海淀区",
+      "date": "2019-12-28",
+      "signup_link": "https://www.huodongxing.com/event/7524683147800",
+      "review_link": ""
+    },
+    {
+      "topic": "【杭州】PingCAP Infra Meetup No.123：Put TiDB in WebAssembly & WebAssembly — What&How",
+      "addr": "杭州.西湖区",
+      "date": "2019-12-28",
+      "signup_link": "https://www.huodongxing.com/event/3523796541800",
       "review_link": ""
     }
   ],
