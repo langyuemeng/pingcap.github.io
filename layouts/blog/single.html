@@ -42,7 +42,10 @@
                             {{- end -}}
                         </li>
                     </ul>
-                    <div class="blog-text">{{- .Content -}}</div>
+                    <div class="blog-text">
+                        {{ partial "archives/math.html" . }}
+                        {{- .Content -}}
+                    </div>
                 </div>
                 <div class="article-toc"></div>
                 {{- partial "archives/post-share.html" . -}}

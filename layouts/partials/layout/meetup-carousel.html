@@ -29,7 +29,7 @@
             {{- range $idx, $i := .global.Site.Data.paper_reading.upcoming_reading -}}
                 <div class="swiper-slide">
                     <p class="topic">{{ $i.topic }}</p>
-                    <div class="meetup-date"><span class="date">{{ $i.date }}</span> | <span>{{ $i.speaker }}</span></div>
+                    <div class="meetup-date"><span class="date">{{ $i.date }}</span> <span>{{ $i.time }}</span> | <span>{{ $i.speaker }}</span></div>
                     <div>
                         <a href="{{ if $i.review_link }}{{ $i.review_link }}{{ else }}{{ $i.signup_link }}{{ end }}" target="_blank">
                             <button class="meetup-register">
